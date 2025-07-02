@@ -757,6 +757,15 @@ nav {
   }
 }
 
+
+@media (max-width:800px)  {
+  .contact-inputs{
+    width: 80vw;
+  }
+  .contact-right{
+    display: none;
+  }
+}
 @media (width > 1024px) {
   .steps__card {
     padding: 1.5rem;
