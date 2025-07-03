@@ -17,7 +17,11 @@
 }
 
 /* register  */
-
+.logo_comp{
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
 .contact_container{
   display: flex;
   align-items: center;
@@ -182,7 +186,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--extra-light);
+  background-color: var(--white);
 }
 
 .nav__menu__btn {
@@ -194,7 +198,7 @@ nav {
 .nav__links {
   position: absolute;
   top: 65px;
-  left: 0;
+  left:-120px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -240,6 +244,7 @@ nav {
   color: #fa6021;
   background-color: #fff8f5;
   border-radius: 5rem;
+  margin-top: 10px;
 }
 
 .header__container h2 img {
@@ -413,10 +418,12 @@ nav {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   width: cover;
+  align-items: center;
+  justify-content: center;
 }
 .images_rolls{
   height: 200px;
-  width: 250px;
+  width: cover;
 }
 
 
@@ -685,6 +692,13 @@ nav {
   .explore__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .images_rolls{
+  height: 200px;
+  width: cover;
+}
+
+
 
   .job__grid {
     grid-template-columns: repeat(2, 1fr);
