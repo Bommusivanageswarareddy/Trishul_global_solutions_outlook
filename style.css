@@ -142,6 +142,12 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary-color);
+ 
+}
+.nav__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo span {
@@ -691,6 +697,10 @@ nav {
 
   .explore__grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logo{
+   
   }
 
   .images_rolls{
