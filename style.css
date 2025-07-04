@@ -882,6 +882,13 @@ nav {
   .footer__col:nth-child(1) {
     grid-column: 1/3;
   }
+
+}
+@media ((min-width: 769px) and (max-width:956px)){
+ .logo{
+  display: none;
+  
+ }
 }
 
 
@@ -892,6 +899,8 @@ nav {
   .contact-right{
     display: none;
   }
+ 
+
 }
 @media (width > 1024px) {
   .steps__card {
