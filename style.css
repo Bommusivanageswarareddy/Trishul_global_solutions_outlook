@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --primary-color: #7f49dc;
+  --primary-color: #047dffc2;
   --primary-color-dark: #6132b4;
   --text-dark: #262626;
   --text-light: #737373;
@@ -105,7 +105,7 @@
   margin-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: 700;
-  color: var(--text-dark);
+  color: var(--primary-color);
   text-align: center;
 }
 
@@ -268,8 +268,8 @@ nav {
 .header__container h1 {
   margin-bottom: 1rem;
   font-size: 4rem;
-  font-weight: 700;
-  color: var(--text-dark);
+  font-weight: 600;
+  color: var(--primary-color);
   text-align: center;
   line-height: 5.5rem;
 }
@@ -325,7 +325,7 @@ nav {
   z-index: -1;
 }
 
-.header__container > img:nth-child(1) {
+/* .header__container > img:nth-child(1) {
   top: 30%;
   left: 20%;
   transform: translate(-50%, -50%);
@@ -359,7 +359,7 @@ nav {
   top: 65%;
   right: 20%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .steps {
   background-image: url("assets/steps-bg\ \(1\).png");
@@ -755,6 +755,22 @@ nav {
 .slide_title{
   font-size: 15px;
 }  
+
+@media (max-width:376px) {
+   .header__container h1{
+    font-size: 25px;
+    line-height: 6rem;
+   }
+   .logo{
+    font-size: 18px;
+   }
+   .section__header{
+    font-size: 20px;
+   }
+   .btn{
+    padding: 10px;
+   }
+}
 
 @media (width > 540px) {
   .steps__grid {
