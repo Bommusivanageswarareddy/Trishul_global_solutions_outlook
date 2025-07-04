@@ -772,6 +772,10 @@ nav {
    .btn{
     padding: 10px;
    }
+   
+.header__container h2 {
+  margin-top: 50px;
+}
 }
 @media ((min-width: 380px) and (max-width:480px)){
 .header__container h1{
@@ -785,6 +789,9 @@ nav {
 .logo{
     font-size: 18px;
    }
+}
+.header__container h2 {
+  margin-top: 50px;
 }
 
 @media (width > 540px) {
