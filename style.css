@@ -251,13 +251,11 @@ nav {
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
   display: flex;
+  color: var(--primary-color);
   align-items: center;
   gap: 10px;
-  font-size: 0.9rem;
+  font-size: 2rem;
   font-weight: 600;
-  color: #fa6021;
-  background-color: #fff8f5;
-  border-radius: 5rem;
   margin-top: 10px;
 }
 
@@ -636,8 +634,10 @@ nav {
 }
 
 .footer__container {
-  display: grid;
-  gap: 4rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+
+
 }
 
 .footer__logo {
@@ -672,7 +672,7 @@ nav {
 
 .footer__links a span {
   font-size: 13px;
-  margin-left: -10px;
+  margin-left: 30px;
 }
 
 .footer__bar {
@@ -775,11 +775,19 @@ nav {
    
 .header__container h2 {
   margin-top: 50px;
+  font-size: 20px;
 }
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+}
+
 }
 @media ((min-width: 380px) and (max-width:480px)){
 .header__container h1{
-    font-size: 25px;
+    font-size: 30px;
     line-height: 6rem;
    }
 .section__header{
@@ -789,10 +797,19 @@ nav {
 .logo{
     font-size: 18px;
    }
-}
-.header__container h2 {
+   .header__container h2 {
   margin-top: 50px;
+  font-size: 25px;
+
 }
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+}
+
 
 @media (width > 540px) {
   .steps__grid {
@@ -821,7 +838,9 @@ nav {
   }
 
   .footer__container {
-    grid-template-columns: repeat(2, 1fr);
+   display: flex;
+  flex-direction: column;
+  margin-left: 20px;
   }
 
 }
@@ -876,7 +895,11 @@ nav {
   }
 
   .footer__container {
+   display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    
+
   }
 
   .footer__col:nth-child(1) {
